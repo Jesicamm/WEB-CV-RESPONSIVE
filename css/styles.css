@@ -1,0 +1,33 @@
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+header {
+    align-items: center;
+    margin-top: 2.5em;
+}
+
+.cabecera{
+    width: 8em;
+    height: 8em;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 0.2em solid rgb(224, 193, 203);
+    margin: auto;
+    
+}
+.cabecera img {
+    width: 100%;
+    height: 100%;
+}
+
+hr{
+    margin-top: 0.5em;
+}
