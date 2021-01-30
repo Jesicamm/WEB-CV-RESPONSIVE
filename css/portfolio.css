@@ -1,0 +1,43 @@
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    padding: 2em;
+    font-family: 'Yusei Magic', sans-serif;   
+}
+
+.principal{
+    width: 100%;
+    height: 40em;
+    background-color: white;
+    margin: auto;
+    padding: 2em;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.parrafo-1{
+    text-align: center;
+}
+
+.parrafo-2{
+    text-align: center;
+}
+
+.parrafo-3{
+    text-align: center;
+}
+
+@media screen and (min-width: 800px){
+    .principal{
+        max-width: 85em;
+        height: 50em;
+        margin: auto;
+    }
+}
