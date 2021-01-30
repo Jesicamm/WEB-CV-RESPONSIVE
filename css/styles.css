@@ -12,12 +12,12 @@ body{
 
 
 .cabecera{
-    width: 8em;
-    height: 8em;
+    width: 10em;
+    height: 10em;
     align-items: center;
     border-radius: 50%;
     overflow: hidden;
-    border: 0.2em solid rgb(224, 193, 203);
+    border: 0.2em solid rgb(240, 233, 233);
     margin: auto;
     
 }
@@ -25,32 +25,167 @@ body{
     width: 100%;
     height: 100%;
 }
+header {
+    background-color: white;
+}
 
 hr{
     margin-top: 0.5em;
+    background: rgb(212, 42, 96);
 }
 
-.main-img{
+.main-text{
+    background-color: white;
     width: 100%;
-    height: 20em;
-    margin-top: 2em;
-    border-image-source: url(img/rayas)
-    
-}
-
-.main-img img{
-    width: 100%;
-    height: 100%;
+    height: 12em;
+    margin-top: 1em;
     display: flex;
-    
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-   
+    flex-direction: column;
+    text-align: center; 
+    justify-content: space-around;  
+    padding: 1em;
+}
+.main-text p{
+    font-family: 'Yusei Magic', sans-serif;
 }
 
-.texto {
-   width: 100%;
-   height: 5em;
-   background-color: tomato;
+
+.work{
+    background-color: white;
+    width: 100%;
+    height: 12em;
+    margin-top: 0.7em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
+.work p{
+    align-self: center;
+    font-family: 'Yusei Magic', sans-serif;
+}
+.contenedorfooter{
+    width: 100%;
+    height: 10em;
+    background-color: white;
+    margin-top: 0.7em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.corchete{
+    width: 5em;
+    text-align: center;
+    align-self: center;   
+    font-family: 'Yusei Magic', sans-serif; 
+    font-size: 2em; 
+    margin-bottom: 0.4em;
+}
+.botones{
+    width: 10em;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    margin-right: 2em;
+}
+
+.botongit{
+    width: 2em;
+    height: 2em;
+}
+.botonln{
+    width: 2em;
+    height: 2em;
+}
+.botoncontacto{
+    width: 2em;
+    height: 2em;
+}
+
+.botongit:hover {
+    transform: scale(1.2);
+    transition: 2s;
+}
+.botonln:hover{
+    transform: scale(1.2);
+    transition: 2s;
+}
+.botoncontacto:hover{
+    transform: scale(1.2);
+    transition: 2s;
+}
+@media screen and (min-width: 800px){
+    header{
+        max-width: 80em;
+        height: 15em;
+        margin: auto;
+    }
+
+    .cabecera{
+        width: 14em;
+        height: 14em;
+    }
+
+    hr{
+        max-width: 80em;
+        margin: auto;
+        margin-top: 1em;
+    }
+
+    .main-text{
+        max-width: 80em;
+        height: 19em;
+        margin: auto;
+        margin-top: 1em;
+    }
+    .main-text p{
+        font-size: 1.5em;
+    }
+
+    .work{
+        max-width: 80em;
+        height: 19em;
+        margin: auto;
+        margin-top: 1em;
+    }
+    
+    .work p{
+        font-size: 1.5em;
+    }
+
+    .contenedorfooter{
+        max-width: 80em;
+        height: 20em;
+        margin: auto;
+        margin-top: 1em;
+    }
+
+    .corchete{
+        font-size: 4em;
+        max-width: 15em;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .botongit{
+        width: 4em;
+        height: 4em;
+    }
+
+    .botonln{
+        width: 4em;
+        height: 4em;
+    }
+
+    .botoncontacto{
+        width: 4em;
+        height: 4em;
+    }
+    .botones{
+        width: 40em;
+        display: flex;
+        align-self: center;
+        justify-content:space-around;
+        
+    }
+}
+
