@@ -9,4 +9,4 @@ Web cv personal diseñada con los principios de MOBILE FIRST :iphone:.
 
 ### ENLACE A GITHUB PAGES:
 
--
+- https://jesicamm.github.io/WEB-CV-RESPONSIVE/
