@@ -37,7 +37,7 @@ body{
 @media screen and (min-width: 800px){
     .principal{
         max-width: 85em;
-        height: 50em;
+        height: 55em;
         margin: auto;
     }
 }

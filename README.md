@@ -2,7 +2,7 @@
 
 Web cv personal diseñada con los principios de MOBILE FIRST :iphone:.
 
-## STACK UTILIZADO :floppy_disk: :
+## STACK UTILIZADO:
 
 - Html5
 - Css3 (***FLexbox y Media Queries***)
