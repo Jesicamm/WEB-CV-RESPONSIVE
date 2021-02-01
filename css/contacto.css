@@ -49,10 +49,12 @@ body{
     margin-top: 1em;
     padding: 1em;
 }
+
 .localizacion{
     display: flex;
     flex-direction: row;
 }
+
 .localizacion img{
     width: 2em;
     height: 2em;
